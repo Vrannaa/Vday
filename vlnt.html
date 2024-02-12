@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <style>
+        body {
+            background-color: salmon;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #valentineText {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .button {
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="valentineText">Will you be my Valentine?</div>
+
+    <button class="button" onclick="handleYes()">Yes</button>
+    <button class="button" onclick="handleNo()">No</button>
+
+    <script>
+        function handleYes() {
+            alert("You clicked Yes!");
+            // Add any other functionality you want for 'Yes'
+        }
+
+        function handleNo() {
+            alert("You clicked No!");
+            // Add any other functionality you want for 'No'
+        }
+    </script>
+
+</body>
+</html>
